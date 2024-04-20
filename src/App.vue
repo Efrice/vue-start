@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import TheCount from '~/components/TheCount.vue'
+import TheFooter from '~/components/TheFooter.vue'
 </script>
 
 <template>
@@ -10,7 +11,10 @@ import TheCount from '~/components/TheCount.vue'
         Vue Start
       </a>
     </p>
+    <div mt-2>
+      <TheCount :initial="10" />
+    </div>
+    <TheFooter />
   </div>
-  <TheCount :initial="10" />
 </template>
 
