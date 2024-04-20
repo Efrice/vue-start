@@ -10,6 +10,9 @@ dependencies:
     version: 3.4.23(typescript@5.4.5)
 
 devDependencies:
+  '@iconify-json/carbon':
+    specifier: ^1.1.31
+    version: 1.1.31
   '@types/node':
     specifier: ^20.12.7
     version: 20.12.7
@@ -578,6 +581,12 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  /@iconify-json/carbon@1.1.31:
+    resolution: {integrity: sha512-CAvECFfiwGyZmlcuM2JLMRDEN3VsIEZv6lml7Xf+3giQ5oXloADm0b5wiVPFZmONKM5jXERmx+E7YSvAtFJIbw==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
 
   /@iconify/types@2.0.0:
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
