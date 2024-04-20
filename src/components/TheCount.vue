@@ -9,5 +9,7 @@ const count = ref(props.initial)
 </script>
 
 <template>
-  <button type="button" @click="count++">{{ count }}</button>
+  <div text-center mt-4>
+    <button type="button" btn @click="count++">{{ count }}</button>
+  </div>
 </template>

@@ -1,15 +1,22 @@
 {
-  "name": "repo-name",
+  "name": "vue-start",
   "type": "module",
   "version": "1.0.0",
-  "description": "repo description",
+  "description": "vue-start",
   "main": "index.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build --outDir docs",
     "test": "vitest"
   },
-  "keywords": [],
+  "keywords": [
+    "vue3",
+    "vite",
+    "ts",
+    "vitest",
+    "unocss",
+    "auto import"
+  ],
   "author": "efrice",
   "license": "MIT",
   "dependencies": {
@@ -17,10 +24,12 @@
   },
   "devDependencies": {
     "@types/node": "^20.12.7",
+    "@unocss/reset": "^0.59.4",
     "@vitejs/plugin-vue": "^5.0.4",
     "@vue/test-utils": "^2.4.5",
     "jsdom": "^24.0.0",
     "typescript": "^5.2.2",
+    "unocss": "^0.59.4",
     "vite": "^5.2.0",
     "vitest": "^1.5.0",
     "vue-tsc": "^2.0.6"
