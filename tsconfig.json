@@ -17,6 +17,7 @@
     "resolveJsonModule": true,
     "types": [
       "vite/client",
+      "vitest/globals",
     ],
     "allowJs": true,
     "strict": true,
