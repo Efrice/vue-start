@@ -7,5 +7,7 @@ const count = ref(props.initial)
 </script>
 
 <template>
-  <button type="button" btn @click="count++">{{ count }}</button>
+  <button type="button" btn @click="count++">
+    {{ count }}
+  </button>
 </template>
