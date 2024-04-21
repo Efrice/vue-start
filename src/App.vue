@@ -1,8 +1,3 @@
-<script setup lang="ts">
-import TheCount from '~/components/TheCount.vue'
-import TheFooter from '~/components/TheFooter.vue'
-</script>
-
 <template>
   <div text-center>
     <div i-carbon-harbor  inline-block text-4xl mt-8 />
@@ -17,4 +12,3 @@ import TheFooter from '~/components/TheFooter.vue'
     <TheFooter />
   </div>
 </template>
-

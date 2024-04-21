@@ -1,7 +1,3 @@
-<script setup lang="ts">
-import { toggleDark } from '~/composables'
-</script>
-
 <template>
   <nav mt-6 inline-flex gap-2 text-xl>
     <button icon-btn @click="toggleDark()">
