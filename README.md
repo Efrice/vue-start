@@ -8,3 +8,4 @@
 - vitest
 - unocss
 - auto import
+- message
